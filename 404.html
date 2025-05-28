@@ -8,7 +8,7 @@
 <div></div>
 <script>
 const kajaurl = "https://valeNimi4.github.io/kaja";
-const url = window.location.href.replace("__vaiksemkui", "<").replace("__suuremkui", ">");
+const url = window.location.href.replace("__vaiksemkui", "<").replace("__suuremkui", ">").replace("__kaldkriips", "/");
 if (url.slice(0, kajaurl.lenght) != "") {
 document.getElementsByTagName("html")[0].innerHTML = url.slice(kajaurl.length, url.length);}
 </script>
