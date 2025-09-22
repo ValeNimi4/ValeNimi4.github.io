@@ -1,5 +1,4 @@
 a, a:visited, a:link {text-decoration: 0; color: white; background-color: black; border-style: solid; border-color: white; border-radius: 10px; padding: 10px; font-family: Arial, sans-serif; margin: 20px; transition: color 0.5s, background-color 0.5s;}
 a:hover {background-color: white; color: black;}
-body {background-color: black;}
-div {word-wrap: break-word;}
+body {background-color: black;word-wrap: break-word;}
 img {border-radius: 10px; margin: 20px;}
