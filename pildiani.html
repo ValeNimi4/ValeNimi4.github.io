@@ -51,6 +51,6 @@ div img {
 info = window.location.href.split("???")[1];
 if (info) {pilt = info.split("|||")[0]; ani=info.split("|||")[1];
 if (pilt && ani) {
-img = document.getElementsByTagName("img")[0]; img.src=pilt; img.style.animationName = ani;} else {alert("Viga!");window.location.assign("ani.html");}}
+img = document.getElementsByTagName("img")[0]; img.src="https://"+pilt; img.style.animationName = ani;} else {alert("Viga!");window.location.assign("ani.html");}}
 else {alert("Viga!");window.location.assign("ani.html");}
 </script></body>
