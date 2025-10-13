@@ -11,7 +11,7 @@ Pildi url aadress<br>
 <button onclick="teelink('kolmkorraga')">3 korraga</button><button onclick="teelink('suurvaike')">suur-väike</button><button onclick="teelink('labipaistvus')">läbipaistvus</button><button onclick="teelink('pong')">pong</button><button onclick="teelink('keerleb2d')">keerleb(2d)</button><button onclick="teelink('keerleb3d')">keerleb(3d)</button><button onclick="teelink('pole')">puudub</button>
 <br><a id="url">Siia tuleb lehe url</a>
 <script>
-function teelink (ani) {document.getElementById("url").innerHTML = "https://valeNimi4.github.io/pildiani.html???"+document.getElementById("pildiurl").value.replace("https://", "").replace("http://", "")+"|||"+ani;
+function teelink (ani) {document.getElementById("url").innerHTML = "https://valeNimi4.github.io/pildiani.html?"+document.getElementById("pildiurl").value.replace("https://", "").replace("http://", "")+"|||"+ani;
 document.getElementById("url").href = document.getElementById("url").innerHTML;
 }
 function pilt() {document.getElementById("pilt").src = document.getElementById("pildiurl").value;}
