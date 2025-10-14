@@ -1,5 +1,5 @@
 a {text-decoration: underline;}
-a, a:visited, a:link, p {color: white;border-style: none; border-color: white; border-radius: 0; padding: 10px; font-family: Arial, sans-serif; margin: 20px; transition: color 0.5s, background-color 0.5s;}
+a, a:visited, a:link, p, h {color: white;border-style: none; border-color: white; border-radius: 0; padding: 10px; font-family: Arial, sans-serif; margin: 20px; transition: color 0.5s, background-color 0.5s;}
 a:hover {background-image: linear-gradient(gray, white); color: black;}
 body {background-attachment: fixed;background-repeat: no-repeat;overflow: none; margin: 0;background-image: linear-gradient(45deg, darkgreen, darkblue);word-wrap: break-word; width: 100%; height: 100vh;}
 img {margin: 20px;}
