@@ -2,14 +2,16 @@
 <html>
 <head>
 <title>valeNimi4 ANI - Animeeri pilt naljakalt</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/stiil.css">
 </head>
 <body>
-<h1>valeNimi4 ANI - Animeeri pilt naljakalt</h1>
-Soovitan genereeritud lingi lühendada nt <a href="https://tinyurl.com">TinyURL</a>iga<br>
+<img src="/logo.png">
+<h1>ANI - Animeeri pilt naljakalt</h1>
 Pildi url aadress<br>
 <input id="pildiurl" oninput="pilt()">
 <br>Pildi eelvaade<img id="pilt" width=50 height=50><br>Genereeri link animatsiooniga... 
-<button onclick="teelink('kolmkorraga')">3 korraga</button><button onclick="teelink('suurvaike')">suur-väike</button><button onclick="teelink('labipaistvus')">läbipaistvus</button><button onclick="teelink('pong')">pong</button><button onclick="teelink('keerleb2d')">keerleb(2d)</button><button onclick="teelink('keerleb3d')">keerleb(3d)</button><button onclick="teelink('pole')">puudub</button>
+<a onclick="teelink('kolmkorraga')">3 korraga</a><a onclick="teelink('suurvaike')">suur-väike</a><a onclick="teelink('labipaistvus')">läbipaistvus</a><a onclick="teelink('pong')">pong</a><a onclick="teelink('keerleb2d')">keerleb(2d)</a><a onclick="teelink('keerleb3d')">keerleb(3d)</a><a onclick="teelink('pole')">puudub</a>
 <br><a id="url">Siia tuleb lehe url</a>
 <script>
 function teelink (ani) {document.getElementById("url").innerHTML = "https://valeNimi4.github.io/pildiani.html?"+document.getElementById("pildiurl").value.replace("https://", "").replace("http://", "")+"|||"+ani;
