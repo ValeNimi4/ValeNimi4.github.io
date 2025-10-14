@@ -2,3 +2,4 @@ a, a:visited, a:link, p {text-decoration: 0; color: white;border-style: none; bo
 a:hover {background-image: linear-gradient(gray, white); color: black;}
 body {margin: 0;background-image: linear-gradient(45deg, darkgreen, darkblue);word-wrap: break-word; width: 100%; height: 100vh;}
 img {margin: 20px;}
+div {border-width: 0px; margin:0; width:100%; height: auto; background: transparent;}
