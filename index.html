@@ -5,12 +5,24 @@
 <title>valeNimi4</title>
 </head>
 <body>
-<img width="200" height="50" src="logo.png"><br>
-<a href="sonapomm">SÕNAPOMM</a><br>
-<a href="https://valenimi4.github.io/SuperAI">SuperAI</a><br>
-<a href="ani.html">ANI</a><br>
-<a href="https://valenimi4.github.io/milleilm">Milleilm</a><br>
-<a href="https://github.com/ValeNimi4">Mina Githubis</a><br>
-<a href="huntjajanes">Hunt ja jänes</a><br>
-<a href="SipelTekst/sipeltekst.html">SipelTekst</a><br>
+<img width="200" height="50" src="logo.png">
+<script>
+var pealkirjad = ["täna", "homme", "ülehomme"];
+var pealkirjanr = 0
+function pealkiri() {
+	if (pealkirjanr > 1) {
+		pealkirjanr = -1;}
+	pealkirjanr += 1;
+	document.getElementById("milleilm").innerHTML = pealkirjad[pealkirjanr];
+}
+setInterval(pealkiri, 2500);
+</script>
+<p><a href="vikivestlus">vikivestlus<br><b>UUS</b> (samuti valeNimi4 vikivestlus) Suhtled nagu internetis sõpradega või tehisintellektiga, aga tegelikult otsid vikipeediast</a></p>
+<p><a href="milleilm">Milleilm<br>Milleilm <i id="milleilm">täna</i> on?</a></p>
+<p><a href="sonapomm">Sõnapomm<br>Animeeri sõna</a></p>
+<p><a href="SuperAI">SuperAI<br>Millega saan teid täna aidata?</a></p>
+<p><a href="SipelTekst/sipeltekst.html">SipelTekst<br>Lihtne tekstiredaktor</a></p>
+<p><a href="https://github.com/ValeNimi4">Mina Githubis<br>(Välislink mitte projekt)</a></p>
+<p><a href="ani.html">ANI<br><b>VAJAB UUENDUST</b> Animeeri pilt naljakalt</a></p>
+<p><a href="huntjajanes">Hunt ja jänes<br><b>VAJAB UUENDUST</b> Põgene hundi eest!</a></p>
 </body></html>
