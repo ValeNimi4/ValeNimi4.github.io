@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="146.87875mm"
+   height="33.695541mm"
+   viewBox="0 0 146.87875 33.695541"
    version="1.1"
    id="svg5"
-   sodipodi:docname="logo.svg"
+   sodipodi:docname="logo_must_kiri.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.54677766"
-     inkscape:cx="89.615951"
-     inkscape:cy="561.47137"
+     inkscape:cx="10.973382"
+     inkscape:cy="-27.433454"
      inkscape:window-width="1920"
      inkscape:window-height="1022"
      inkscape:window-x="0"
@@ -37,15 +37,16 @@
      id="defs2">
     <rect
        x="359.34677"
-       y="607.05671"
-       width="403.0588"
+       y="607.0567"
+       width="403.05881"
        height="105.20879"
        id="rect4910" />
   </defs>
   <g
      inkscape:label="Kiht 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-20.589243,-155.69437)">
     <path
        style="fill:#000000;fill-opacity:1;stroke:#2b1100;stroke-width:0.264583;stroke-opacity:0"
        id="path4906"
@@ -54,7 +55,7 @@
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text4908"
-       style="white-space:pre;shape-inside:url(#rect4910);fill:#000000;fill-opacity:1;stroke:#2b1100;stroke-opacity:0;font-size:60.00000076px" />
+       style="font-size:60px;white-space:pre;shape-inside:url(#rect4910);fill:#000000;fill-opacity:1;stroke:#2b1100;stroke-opacity:0" />
     <text
        xml:space="preserve"
        style="font-size:29.1273px;fill:#000000;fill-opacity:1;stroke:#2b1100;stroke-width:0.303409;stroke-opacity:0"
