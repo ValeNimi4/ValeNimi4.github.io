@@ -1,5 +1,5 @@
-p {all: unset; display: block; text-decoration: none;border-style: none none solid none; border-color: #ffffff; border-width: 2px 0px; color: #ffffff; text-decoration: none; width: 100%; font-size: 15px; padding: 5px;transition: background-color 0.5s;}
-p:hover {background-color: white}
+p {all: unset; display: block; text-decoration: none;border-style: none none solid none; border-color: #ffffff; border-width: 2px 0px; color: #ffffff; text-decoration: none; width: 100%; font-size: 15px; padding: 5px;transition: background-color 0.5s, color 0.5s;}
+p:hover {background-color: white; color: black;}
 a, a:link, a:visited {display: block; background: none; color: white; text-decoration: none; width: 100%; height: inherit}
 body { color:#ffffff;background-attachment: fixed; background-repeat: no-repeat; background-image: linear-gradient(45deg, #000000, #1f3f2f); word-wrap: break-word; width: 100%; height: 100vh;}
 * {
